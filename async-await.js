@@ -19,4 +19,4 @@ async function getAllData() { //we can use IIFE here
 getAllData(); //if IIFE func is used , there is no need to call it like this
 
 //for simpler execution we use async-await more than .then()
-//IIFE func is an unnamed func used that ss executed automatically only once and can't be used again 
+//IIFE func is an unnamed func used that is executed automatically only once and can't be used again 
