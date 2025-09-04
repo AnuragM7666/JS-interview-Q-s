@@ -26,3 +26,13 @@ console.log(mappedArr);
 //     const newArr = arr.map(fn);
 //     return newArr;
 // }
+
+
+// //When to Use Each:
+// map(): When you want to transform every element
+// reduce(): When you want to combine all elements into one result
+// filter(): When you want to select only certain element
+const result = [1, 2, 3, 4, 5]
+    .filter(n => n > 2)        // [3, 4, 5]
+    .map(n => n * 2)           // [6, 8, 10]
+    .reduce((sum, n) => sum + n, 0); // 24

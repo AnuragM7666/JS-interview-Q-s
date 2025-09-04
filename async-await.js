@@ -1,5 +1,5 @@
 //async function always returns a promise.
-//await pauses execution of its surrounding async func until promise is settled
+//await pauses execution of its surrounding async func until promise is resolved
 
 function getData(dataId) {
     return new Promise((resolve, reject) => {

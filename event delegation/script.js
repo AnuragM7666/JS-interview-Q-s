@@ -1,4 +1,5 @@
-//Evnet Delegation-It allows us to manage events by using a single event listener on a parent element to handle events for its child elements
+//Event Delegation-It allows us to manage events by using a single event listener on a parent element to handle events for its child elements
+//it uses event bubbling to handle events for child elements
 
 const parent = document.getElementById('parent');
 
